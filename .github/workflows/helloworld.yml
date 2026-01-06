@@ -1,10 +1,17 @@
+# このワークフロー自体の名前
 name: "Hello World"
 
+# 実行されるタイミング（トリガー）
 on: [push]
 
+# ここから下に、実行したい具体的な処理（ジョブ）を書いていく
 jobs:
+    # ジョブの識別名
     sample:
         name: Hello World Job
+        # 処理を実行するOSの種類
         runs-on: ubuntu-latest
+        # 実行する手順を順番に箇条書きにする場所
         steps:
+            # 実際に実行するコマンド
             - run: echo "Hello World!"
