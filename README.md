@@ -1,1 +1,2 @@
 # hello_world_ci_cd
+.github/workflowsを作成し、その配下にymlファイルを作成することで、ワークフローを作成することができる
